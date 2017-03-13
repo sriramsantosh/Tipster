@@ -1,4 +1,4 @@
-# *Tipster*
+# Tipster
 
 **Tipster** is a tip calculator application for iOS.
 
@@ -26,9 +26,6 @@ N/A
     See the License for the specific language governing permissions and
     limitations under the License.
 
-# Tipster
-
-iPhone App to calculate the tip amount
 
 ## Quick walkthrough:
 
