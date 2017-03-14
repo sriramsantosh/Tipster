@@ -14,6 +14,7 @@
 		FD9B916D1E6E552C002965D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9B916B1E6E552C002965D4 /* LaunchScreen.storyboard */; };
 		FD9B91781E6E552C002965D4 /* TipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B91771E6E552C002965D4 /* TipsterTests.swift */; };
 		FD9B91831E6E552C002965D4 /* TipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B91821E6E552C002965D4 /* TipsterUITests.swift */; };
+		FDC82C1E1E7780E0007FF518 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDC82C1D1E7780E0007FF518 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,13 @@
 		FD9B917E1E6E552C002965D4 /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9B91821E6E552C002965D4 /* TipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterUITests.swift; sourceTree = "<group>"; };
 		FD9B91841E6E552C002965D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC82C1D1E7780E0007FF518 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		FDC82C1F1E779778007FF518 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		FDC82C201E779778007FF518 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FDC82C211E779795007FF518 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		FDC82C221E779795007FF518 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FDC82C231E7797BD007FF518 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		FDC82C241E7797BD007FF518 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		FD9B91561E6E552C002965D4 = {
 			isa = PBXGroup;
 			children = (
+				FDC82C1D1E7780E0007FF518 /* Settings.bundle */,
 				FD9B91611E6E552C002965D4 /* Tipster */,
 				FD9B91761E6E552C002965D4 /* TipsterTests */,
 				FD9B91811E6E552C002965D4 /* TipsterUITests */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					FD9B915E1E6E552C002965D4 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = G4SSPX3CBL;
 						ProvisioningStyle = Manual;
 					};
 					FD9B91721E6E552C002965D4 = {
@@ -232,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC82C1E1E7780E0007FF518 /* Settings.bundle in Resources */,
 				FD9B916D1E6E552C002965D4 /* LaunchScreen.storyboard in Resources */,
 				FD9B916A1E6E552C002965D4 /* Assets.xcassets in Resources */,
 				FD9B91681E6E552C002965D4 /* Main.storyboard in Resources */,
@@ -300,6 +311,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				FD9B91671E6E552C002965D4 /* Base */,
+				FDC82C1F1E779778007FF518 /* fr */,
+				FDC82C211E779795007FF518 /* en-IN */,
+				FDC82C231E7797BD007FF518 /* en-GB */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,6 +322,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				FD9B916C1E6E552C002965D4 /* Base */,
+				FDC82C201E779778007FF518 /* fr */,
+				FDC82C221E779795007FF518 /* en-IN */,
+				FDC82C241E7797BD007FF518 /* en-GB */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -369,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -412,15 +431,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEVELOPMENT_TEAM = "";
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = G4SSPX3CBL;
 				INFOPLIST_FILE = Tipster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.intuit.codepath.tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intuit.codepath.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "3afe42cc-b6d0-41a3-80a4-6027ddc68543";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -429,15 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tipster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.intuit.codepath.tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intuit.codepath.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

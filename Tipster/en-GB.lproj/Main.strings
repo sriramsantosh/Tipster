@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "450-fH-xGj"; */
+"450-fH-xGj.text" = "$0.00";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "E4S-UT-bXg"; */
+"E4S-UT-bXg.text" = "$0.00";
+
+/* Class = "UILabel"; text = "Bill"; ObjectID = "FG1-Xt-evA"; */
+"FG1-Xt-evA.text" = "Bill";
+
+/* Class = "UILabel"; text = "Tip"; ObjectID = "Qxj-Rw-Aa4"; */
+"Qxj-Rw-Aa4.text" = "Tip";
+
+/* Class = "UISegmentedControl"; Uu4-I2-8ym.segmentTitles[0] = "15%"; ObjectID = "Uu4-I2-8ym"; */
+"Uu4-I2-8ym.segmentTitles[0]" = "15%";
+
+/* Class = "UISegmentedControl"; Uu4-I2-8ym.segmentTitles[1] = "18%"; ObjectID = "Uu4-I2-8ym"; */
+"Uu4-I2-8ym.segmentTitles[1]" = "18%";
+
+/* Class = "UISegmentedControl"; Uu4-I2-8ym.segmentTitles[2] = "20%"; ObjectID = "Uu4-I2-8ym"; */
+"Uu4-I2-8ym.segmentTitles[2]" = "20%";
+
+/* Class = "UINavigationItem"; title = "Tipster"; ObjectID = "VRu-ep-fUS"; */
+"VRu-ep-fUS.title" = "Tipster";
+
+/* Class = "UITextField"; placeholder = "$"; ObjectID = "W90-64-W55"; */
+"W90-64-W55.placeholder" = "$";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "bni-ro-iwz"; */
+"bni-ro-iwz.text" = "Total";
